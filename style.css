@@ -11,3 +11,88 @@
     font-weight: 600;
     font-style: normal;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Graphik';
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.container {
+    width: 1290px;
+    margin: 0 auto;
+}
+
+.header-top {
+    border-bottom: 1px #CCCCCC solid;
+}
+
+.header-top-container {
+    width: 1338px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 51px;
+}
+
+.menu {
+    margin-right: 352px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 57px;
+}
+
+.menu-link {
+    font-size: 15px;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.white-button {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.orange-button {
+    background-color: #FF6336;
+    color: #FFFFFF;
+}
+
+.white-button, .orange-button {
+    display: inline-block;
+    width: 160px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.header-top-button-box {
+    display: flex;
+}
+
+.header-top-button {
+    width: 120px;
+    line-height: 45px;
+    margin-right: 10px;
+}
+
+.header-top-button:last-child {
+    margin-right: 0;
+}
