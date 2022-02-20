@@ -310,8 +310,11 @@ a {
     line-height: 25px;
 }
 
-.boost {
+.gray-section {
     background-color: #EEEEEE;
+}
+
+.boost {
     padding: 154px 0 187px 0;
 }
 
@@ -368,4 +371,36 @@ a {
     background-image: url(./images/main/boost/translators.png);
     height: 183px;
     margin: 9px 0 58px 0;
+}
+
+.review {
+    background-color: #C9E8F2;
+    padding: 53px 0 105px 0;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-text {
+    width: 885px;
+}
+
+.review-quote {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 10px 0 23px 0;
+}
+
+.review-name {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 7px;
+}
+
+.review-photo {
+    background-image: url(./images/main/review/photo.jpg);
+    width: 310px;
+    height: 310px;
 }
