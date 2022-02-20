@@ -244,10 +244,10 @@ a {
 .what-localize {
     background-color: #FFF8E4;
     padding: 120px 0 147px 0;
+    text-align: center;
 }
 
 .what-localize-heading {
-    text-align: center;
     margin-bottom: 79px;
     font-size: 50px;
     line-height: 60px;
@@ -257,7 +257,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    text-align: center;
 }
 
 .what-localize-img-size {
@@ -309,4 +308,64 @@ a {
 .what-localize-section>p {
     font-size: 18px;
     line-height: 25px;
+}
+
+.boost {
+    background-color: #EEEEEE;
+    padding: 154px 0 187px 0;
+}
+
+.boost h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 75px;
+}
+
+.boost-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boost-section {
+    width: 400px;
+}
+
+.boost-section>h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 34px;
+}
+
+.boost-section>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.boost-section>a {
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.boost-img {
+    background-repeat: no-repeat;
+}
+
+.managers-img {
+    background-image: url(./images/main/boost/managers.png);
+    height: 201px;
+    margin-bottom: 49px;
+}
+
+.developers-img {
+    background-image: url(./images/main/boost/developers.png);
+    height: 166px;
+    margin: 17px 0 67px 0;
+}
+
+.translators-img {
+    background-image: url(./images/main/boost/translators.png);
+    height: 183px;
+    margin: 9px 0 58px 0;
 }
