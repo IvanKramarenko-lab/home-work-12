@@ -238,4 +238,75 @@ a {
 
 .less-work-img {
     background-image: url(./images/main/advantages/less-work.jpg);
+    height: 577px;
+}
+
+.what-localize {
+    background-color: #FFF8E4;
+    padding: 120px 0 147px 0;
+}
+
+.what-localize-heading {
+    text-align: center;
+    margin-bottom: 79px;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.what-lacalize-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.what-localize-img-size {
+    height: 120px;
+    margin-bottom: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.web-apps-img {
+    background-image: url(./images/main/what-localize/web-apps.png)
+}
+
+.mobile-apps-img {
+    background-image: url(./images/main/what-localize/mobile-apps.png)
+}
+
+.games-img {
+    background-image: url(./images/main/what-localize/game.png)
+}
+
+.documents-img {
+    background-image: url(./images/main/what-localize/documents.png)
+}
+
+.marketing-e-mails-img {
+    background-image: url(./images/main/what-localize/marketing-mails.png)
+}
+
+.iot-img {
+    background-image: url(./images/main/what-localize/IoT.png)
+}
+
+.what-localize-section {
+    width: 330px;
+    margin-bottom: 75px;
+}
+
+.what-localize-section:nth-child(n+4) {
+    margin-bottom: 0px;
+}
+
+.what-localize-section>h3 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.what-localize-section>p {
+    font-size: 18px;
+    line-height: 25px;
 }
