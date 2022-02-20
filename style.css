@@ -165,3 +165,77 @@ a {
     justify-content: space-around;
     align-items: center;
 }
+
+.advantages-box {
+    padding: 90px 0 150px 0;
+}
+
+.advantages-section {
+    display: flex;
+    margin-bottom: 250px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.advantages-section:last-child {
+    margin-bottom: 0;
+}
+
+.advantages-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.advantages-text-section {
+    width: 520px;
+}
+
+.advantages-text-section>h3 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.advantages-text-section>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.control-width-text {
+    width: 491px;
+}
+
+.shorten-width-title {
+    width: 370px;
+}
+
+.shorten-width-text {
+    width: 450px;
+}
+
+.advantages-link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.advantages-img-size {
+    width: 632px;
+    height: 632px;
+}
+
+.control-img {
+    background-image: url(./images/main/advantages/control.jpg);
+}
+
+.shorten-img {
+    background-image: url(./images/main/advantages/shorten.jpg);
+}
+
+.ensure-img {
+    background-image: url(./images/main/advantages/ensure.jpg);
+}
+
+.less-work-img {
+    background-image: url(./images/main/advantages/less-work.jpg);
+}
