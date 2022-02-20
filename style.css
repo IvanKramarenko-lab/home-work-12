@@ -47,7 +47,7 @@ a {
 }
 
 .menu {
-    margin-right: 352px;
+    flex-grow: 1;
 }
 
 .menu-list {
@@ -90,9 +90,44 @@ a {
 .header-top-button {
     width: 120px;
     line-height: 45px;
+}
+
+.header-top-button:first-child {
     margin-right: 10px;
 }
 
-.header-top-button:last-child {
-    margin-right: 0;
+.header-bottom-container {
+    width: 1306px;
+    display: flex;
+}
+
+.header-bottom-content {
+    flex: 1;
+    margin: 129px 0 0 8px;
+}
+
+.header-bottom-content>h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 51px;
+}
+
+.header-bottom-content>p {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 51px;
+}
+
+.header-bottom-button-box {
+    margin-bottom: 25px;
+}
+
+.header-bottom-button:first-child {
+    margin-right: 10px;
+}
+.header-bottom-img {
+    background-image: url(./images/header/header-img.png);
+    width: 759px;
+    height: 529px;
 }
