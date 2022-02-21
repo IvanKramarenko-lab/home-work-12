@@ -404,3 +404,65 @@ a {
     width: 310px;
     height: 310px;
 }
+
+.rating {
+    padding: 80px 0 84px 0;
+    background-color: #DABC98;
+}
+
+.rating-container {
+    width: 1332px;
+    display: flex;
+    align-items: center;
+}
+
+.rating-text {
+    font-size: 35px;
+    line-height: 50px;
+    width: 461px;
+    margin-right: 124px;
+}
+
+.rating-img {
+    background-image: url(./images/main/rating/cake.svg);
+    width: 176px;
+    height: 154px;
+    margin-right: 67px;
+}
+
+.rating-box {
+    display: flex;
+    height: 168px;
+}
+
+.rating-box-review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    border-left: 1px #000000 solid;
+}
+
+.rating-box-review:last-child {
+    border-left: 0;
+}
+
+.rating-g2-img {
+    width: 36px;
+    margin-bottom: 20px;
+}
+
+.rating-capterra-img {
+    margin-bottom: 19px;
+}
+
+.rating-box-review>img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.rating-box-review>p {
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
