@@ -75,12 +75,16 @@ a {
     outline-offset: -1px;
 }
 
-.orange-button {
+.orange-button, .black-button {
     background-color: #FF6336;
     color: #FFFFFF;
 }
 
-.white-button, .orange-button {
+.black-button {
+    background-color: #000000;
+}
+
+.white-button, .orange-button, .black-button {
     display: inline-block;
     width: 160px;
     line-height: 60px;
@@ -506,4 +510,27 @@ a {
 
 .integrate-button {
     width: 193px;
+}
+
+.made {
+    padding: 119px 0 161px 0;
+}
+
+.made-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.made-container>h2 {
+    font-size: 65px;
+    line-height: 75px;
+    margin-bottom: 29px;
+}
+
+.made-container>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 54px;
 }
