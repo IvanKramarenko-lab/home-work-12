@@ -25,6 +25,11 @@ h1, h2, h3, h4 {
     font-weight: 600;
 }
 
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 a {
     text-decoration: none;
     color: #000000;
@@ -200,8 +205,6 @@ a {
 }
 
 .advantages-text-section>p {
-    font-size: 20px;
-    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -344,8 +347,6 @@ a {
 }
 
 .boost-section>p {
-    font-size: 20px;
-    line-height: 30px;
     margin-bottom: 25px;
 }
 
@@ -530,8 +531,6 @@ a {
 }
 
 .made-container>p {
-    font-size: 20px;
-    line-height: 30px;
     margin-bottom: 54px;
 }
 
@@ -566,8 +565,6 @@ a {
 }
 
 .case>p {
-    font-size: 20px;
-    line-height: 30px;
     margin-bottom: 15px;
 }
 
@@ -611,8 +608,6 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 125px;
-    font-size: 12px;
-    line-height: 15px;
 }
 
 .footer-logo {
@@ -629,4 +624,9 @@ a {
 
 .footer-bottom-box>p {
     margin-right: 76px;
+}
+
+.footer-bottom-info>p, .footer-bottom-box>p {
+    font-size: 12px;
+    line-height: 15px;
 }
