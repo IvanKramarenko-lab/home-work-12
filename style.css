@@ -21,7 +21,7 @@ body {
     font-weight: 400;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-weight: 600;
 }
 
@@ -533,4 +533,100 @@ a {
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 54px;
+}
+
+.footer-top-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 97px 0 95px 0;
+    border-bottom: 1px #000000 solid;
+}
+
+.case {
+    width: 300px;
+    margin-top: 5px;
+}
+
+.case>h3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 28px;
+}
+
+.case-img {
+    background-image: url(./images/footer/case-studies.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-bottom: 31px;
+}
+
+.case-img-company {
+    height: 32px;
+    margin-bottom: 11px;
+}
+
+.case>p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.case-link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer-link-box {
+    display: flex;
+    width: 850px;
+    justify-content: space-between;
+}
+
+.footer-link-section {
+    width: 184px;
+}
+
+.footer-link-section>h4 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 21px;
+}
+
+.footer-menu-item {
+    margin-bottom: 15px;
+}
+
+.footer-menu-item:last-child {
+    margin-bottom: 0;
+}
+
+.footer-menu-link {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.footer-bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer-logo {
+    margin-right: 14px;
+}
+
+.footer-bottom-info {
+    display: flex;
+}
+
+.footer-bottom-info>p {
+    width: 292px;
+}
+
+.footer-bottom-box>p {
+    margin-right: 76px;
 }
